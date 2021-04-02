@@ -1,0 +1,48 @@
+.nav.nav-tabs{
+	margin-bottom: 15px;
+}
+
+.selected{
+	background-color: #428BCA;
+	color: white;
+	padding: 3px;
+	margin: 1px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.unselected{
+	background-color: none;
+	padding: 3px;
+	margin: 1px;
+	display: inline-block;
+}
+
+#sortSelect{
+	height: 34px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+#listOptions{
+	margin: auto;
+	background-color: #428BCA;
+	padding: 10px 0px;
+	border-radius: 5px;
+}
+
+#listOptions input, #listOptions button, #listOptions select{
+	width: 100%;
+}
+
+#listOptions ul li{
+	  list-style-type: none;
+}
+
+img{
+	max-width: 200%;
+}
+
+.beerDetailDiv{
+	padding: 5px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Brewgle 2.0 is in development."/>
+	<meta name="author" content="Billy Cougan">
+	<title>Brewgle 2.0 | Billy Cougan</title>
+	<link rel="icon" type="image/png" href="../favicon.ico">
+	
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css" />
+   	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+</head>
+
+<body>
+    <nav class="navbar nnavbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brewgle 2.0</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <div class="navbar-form navbar-right">
+		<!--<input id="searchBar" type="text" class="form-control" placeholder="Search Beers...">
+		<select id="sortSelect">
+			<option value="name">Sort Beers</option>
+			<option value="name">Beer Name</option>
+			<option value="abv">ABV (Descending)</option>
+			<option value="ibu">IBU (Descending)</option>	
+		</select>-->
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+	<div class="container">
+		<div class="bs-example bs-example-tabs" role="tabpanel">
+			
+			<ul id="myTab" class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">List View</a>
+				</li>
+				<li role="presentation">
+					<a href="#profile" id="detailTab" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Detail View</a>
+				</li>
+			</ul>
+			
+			<div id="myTabContent" class="tab-content">
+				<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledBy="home-tab">
+					
+					<div id="listOptions" class="row">
+					
+						<div class="col-sm-6 col-xs-6">
+							<input id="searchBar" type="text" class="form-control" placeholder="Search Beers...">
+						</div>
+						
+						<div class="col-sm-2 col-xs-6">
+							<select id="sortSelect">
+								<option value="name">Sort Beers</option>
+								<option value="name">Beer Name</option>
+								<option value="abv">ABV (Descending)</option>
+								<option value="ibu">IBU (Descending)</option>	
+							</select>
+						</div>
+						
+						<div class="col-sm-2 col-xs-6">
+							<button id="selectAll" type="button" class="btn btn-default" aria-label="Left Align">
+								Select All
+							</button>
+						</div>
+						
+						<div class="col-sm-2 col-xs-6">
+							<button id="deselectAll" type="button" class="btn btn-default" aria-label="Left Align">
+								Deselect All
+							</button>
+						</div>
+					</div>
+					
+					<div id="beerList" class="row">
+					</div>
+				</div>
+				
+				<div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledBy="profile-tab">
+					<div id="detailList">
+					</div>
+				</div>
+			</div>
+		</div><!-- /example -->
+	</div>
+		
+<footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../js/bootstrap/bootstrap.min.js"></script>
+	<script src="../js/jquery.prettyPhoto.js"></script>
+	<script src="js/app.js"></script>
+</footer>
+
+</body>
+	
+</html>
+                                                        
+                            
